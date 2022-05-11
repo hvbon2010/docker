@@ -65,3 +65,8 @@ ex: `docker pull ros:noetic`
 `docker rmi -f <image_id>`    # Forces removal of image even if it is referenced in multiple repositories,
                               # i.e. same image id given multiple names/tags.
                               # Will still fail if there is a docker container referencing image.
+
+# Docker bash completion
+To enable the bash completion in docker container app (meaning that, when you use the git co... -> tab -> git commit).
+
+https://docs.docker.com/compose/completion/
