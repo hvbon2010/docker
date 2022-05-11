@@ -69,6 +69,6 @@ ex: `docker pull ros:noetic`
 # Docker bash completion
 To enable the bash completion in docker container app (meaning that, when you use the git co... -> tab -> git commit).
 
-In Dockerfile, install the bash-completion package.
+In Dockerfile, install the `bash-completion` package.
 
 https://docs.docker.com/compose/completion/
