@@ -72,3 +72,6 @@ To enable the bash completion in docker container app (meaning that, when you us
 In Dockerfile, install the `bash-completion` package.
 
 https://docs.docker.com/compose/completion/
+
+# Run cmd in docker
+`docker run -t -i --privileged <container_name> bash`
